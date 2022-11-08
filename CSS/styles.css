@@ -216,16 +216,15 @@ text-align: center;
   }
 .footer-nav {
 display: flex;
-flex-direction: column;
-justify-content: space-between;
-
-
+flex-direction: row;
+width: 30%;
 }
 .name {
 padding-right: 80%;
-
 }
-
+.full {
+  display: none;
+}
 
 
 
