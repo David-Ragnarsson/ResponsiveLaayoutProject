@@ -216,8 +216,9 @@ text-align: center;
   }
 .footer-nav {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: space-between;
+
 
 }
 .name {
@@ -264,17 +265,21 @@ padding-right: 80%;
     flex-basis: 50%;
     padding: 20px;
   }
+
 .top-nav {
 
   display: flex;
   flex-direction: row;
 justify-content: space-evenly;
 flex-wrap: wrap;
-width: 80%;
+width: 100%;
+text-align: center;
 }
 
 .footer-nav{
-  width: 70%;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
 }
 }
 
@@ -303,6 +308,8 @@ width: 80%;
   width: 30%;
   }
   .footer-nav{
+    display: flex;
+    flex-direction: row;
     width: 80%;
   }
   }
